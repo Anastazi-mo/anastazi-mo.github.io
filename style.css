@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  background-color: #efca66;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  margin: 0;
+  position: sticky;
+  top: 0px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #c0cccc;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header .wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  list-style-type: none;
+  font-size: 22px;
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu a {
+  display: block;
+  padding: 4px;
+  margin: 4px 8px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu a:hover {
+  color: #65b2c6;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 56px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+#start .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#start .section-title {
+  width: 100%;
+}
+
+#start .section-image,
+#start .section-text {
+  width: 50%;
+}
+
+#about {
+  background-color: #c0cccc;
+}
+#love {
+  background-color: #ecdec5;
+}
+
+#contacts {
+  background-color: #cec3c8;
+}
+
+#works {
+  background-color: #909cac;
+}
