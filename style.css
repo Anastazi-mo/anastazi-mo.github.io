@@ -3,6 +3,24 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  height: 100vh;
+  padding-top: 60px;
+  background-color: rgb(231, 231, 253);
+}
+
 /* Меню */
 .navigation {
   display: flex;
@@ -34,7 +52,7 @@
   padding-left: 0;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin: 0;
 }
 .menu > li {
   padding-left: 40px;
@@ -47,7 +65,7 @@
 }
 
 .menu > li > a:hover {
-  color: rgb(181, 181, 252);
+  color: #6f5fdb;
 }
 
 /* Блок1 */
@@ -85,11 +103,6 @@
 }
 
 /* про мене */
-.section {
-  height: 100vh;
-  padding-top: 60px;
-  background-color: rgb(231, 231, 253);
-}
 
 .h2-about {
   font-size: 23px;
@@ -99,13 +112,42 @@
   max-width: 50%;
 }
 
-.love {
+.blok1 {
+  display: flex;
+  align-items: center;
+}
+
+.blok2 {
+  display: flex;
   margin-top: 50px;
   margin-left: 40px;
+  align-items: center;
+}
+
+.blok3 {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 80px;
+  align-items: center;
+}
+
+.p-about {
+  max-width: 40ew;
+}
+
+.photo-gerl {
+  position: absolute;
+  right: 0;
+  max-width: 45%;
 }
 
 /* portfolio */
-.section-image.section {
+
+#portfolio {
+  background-color: rgb(255, 255, 255);
+}
+
+/* .section-image.section {
   height: 100vh;
   padding-top: 60px;
   background-color: rgb(255, 255, 255);
@@ -113,7 +155,7 @@
   flex-flow: row wrap;
   display: flex;
   max-width: 1170px;
-}
+} */
 
 .gallerrey {
   display: flex;
@@ -124,6 +166,7 @@
 
 .gallery-item {
   width: 30%;
+  margin-bottom: 20px;
 }
 
 /* footer */
@@ -135,10 +178,11 @@
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 
 .p-footer:hover {
-  color: rgb(156, 156, 248);
+  color: #6f5fdb;
 }
 
 .footer {
@@ -150,5 +194,12 @@
   margin-bottom: 100px;
 }
 #contacts {
-  margin-top: 100px;
+  margin-top: 200px;
+  background-color: rgb(255, 255, 255);
+}
+
+.line {
+  margin-top: 10px;
+  border-top: 3px solid #6f5fdb;
+  height: 100%;
 }

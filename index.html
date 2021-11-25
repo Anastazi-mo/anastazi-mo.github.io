@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Моя перша вебсторінка</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+      integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +30,9 @@
     <div class="header">
       <div class="wrapper">
         <div class="navigation">
+          <a href="#top">
           <img src="logo.png" alt="logo" />
+        </a>
 
           <ul class="menu">
             <li><a href="#about">Про мене</a></li>
@@ -44,147 +53,112 @@
 
     <div id="about" class="section">
       <div class="wrapper">
-        <table cellspacing="0" id="maket">
-          <tr>
-            <td id="leftcol"><h2 class="h2-about">Трохи про мене</h2></td>
-            <td id="spacer"></td>
-            <td id="rightcol">
-              <p class="p-about">
-                Мене звати Настя. За знаком зодіаку я Водолії. У дитинстві
-                хотіла стати хірургом, вчила хімію біологію. Потім усвідомила що
-                не хочу вчитися в аудиторіях з купою парт. Це нудно. А малювати
-                мені завжди подобалося і так я почала вчитися на кафедрі
-                графічного дизайну. Зараз я працюю вебдізайнеркой. В майбутньому
-                планується розвивати в цій сфері.
-              </p>
-            </td>
-          </tr>
-        </table>
-      <div class="love">
-        <table cellspacing="0" id="maket">
-          <tr>
-            <td id="leftcol"><h2 class="h2-about">Що я люблю робити</h2></td>
-            <td id="spacer"></td>
-            <td id="rightcol">
-              <p class="p-about">
-                <ol> 
-                  <li>Спати</li>
-                  <li>Читати</li>
-                 <li>В'язати</li>
-                 <li>Гуляти з друзями</li>
-                <li>Дивитися серіали</li>
-                </ol>
-              </p>
-            </td>
-          </tr>
-        </table>
+        <div class="blok1">
+          <h2 class="h2-about">Трохи про мене</h2>
+          <p class="p-about">
+            Мене звати Настя. За знаком зодіаку я Водолії. У дитинстві
+            хотіла стати хірургом, вчила хімію біологію. Потім усвідомила що
+            не хочу вчитися в аудиторіях з купою парт. Це нудно. А малювати
+            мені завжди подобалося і так я почала вчитися на кафедрі
+            графічного дизайну. Зараз я працюю вебдізайнеркой. В майбутньому
+            планується розвивати в цій сфері.
+          </p>
+         </div>
+
+        <div class="blok2">
+          <h2 class="h2-about">Що я люблю робити</h2>
+          <p class="p-about">
+            <ol> 
+              <li>Спати</li>
+              <li>Читати</li>
+             <li>Танцювати</li>
+             <li>Гуляти з друзями</li>
+            <li>Дивитися серіали</li>
+            </ol>
+          </p>
+        </div>
+
+        <div class="blok3">
+          <h2 class="h2-about">Мої професійні вміння</h2>
+          <p class="p-about">
+            <ol> 
+              <li> Figma</li>
+              <li> Adobe XD</li>
+             <li>Adobe Illustrator</li>
+             <li>Adobe Photoshop</li>
+            <li>Дивитися серіали</li>
+            </ol>
+          </p>
+          <img class="photo-gerl" src="gerl-01.png" alt="photo gerl" />
+        </div>
       </div>
-   </div>
  </div>
 
- <div id="portfolio" class="section-image">
+        
+ <div id="portfolio" class="section">
   <div class="wrapper">
     <h1 class="h1">Портфоліо</h1>
-    <div class="gallerrey">
+    <div class="gallerrey" id="lightgallery">
       <div class="gallery-item">
-        <img src="prog1.jpg"  >
-     </div>
-        
-     <div class="gallery-item" >
-       <img src="prog2.jpg" >
-     </div>
-      
+        <a href="big1.JPG" target="_blank">
+        <img src="project1.jpg"  ></a>
+        <p>2021  </p>
+      </div>
      <div class="gallery-item">
-       <img src="prog3.jpg" ></div>
-     </div>
-    </div>
-      
-  </div>
-</div>
-    
-    
-
-    
-    <div id="contacts" class="wrapper">
-      <h1 class="h1">Контакти</h1>
-     <div class="footer">
-      <a class="p-footer" href=https://www.instagram.com/1_aiwa_1/ > Инстаграм</a> 
-      <a class="p-footer" href=https://www.instagram.com/1_aiwa_1/ > фейсбук</a> 
-      <a class="p-footer" href=https://www.behance.net/anastazii > Behance</a> 
-
-    </div>
-  </div>
-</div>
-  </body>
-
-  <!-- <body>
-  <div class="header"> 
-   <div class="wrapper">
-     <a href="#top">AM</a>
-        <ul class="menu">
-        <li><a href="#about">Про мене</a></li>
-        <li><a href="#love">Улюблене</a></li>
-        <li><a href="#contacts">Контакти</a></li>
-        <li><a href="#works">Мои работы</a></li>
-     </ul>
-    </div>
-  </div>
-  
-  <div id="start" class="section">
-    <div class="wrapper">
-      <h2 class="section-title">Пріветулі</h2>
-      <p class="section-text">
-        Мене звати Анастасія, і ця сторінка про мене.
-      </p>
-
-      <div class="section-image">
-        <img src="photo.jpg" width="200" alt="200"/>
+        <a href="big2.JPG" target="_blank">
+       <img src="project2.jpg" ></a>
+       <p>2021</p>
+      </div>
+      <div class="gallery-item">
+       <a href="big3.JPG" target="_blank">
+       <img src="project3.jpg" ></a>
+       <p>2020 </p>
+      </div>
+      <div class="gallery-item">
+       <a href="big4.JPG" target="_blank">
+       <img src="project4.jpg" ></a>
+       <p>2019 </p>
+      </div>
+      <div class="gallery-item">
+       <a href="big5.JPG" target="_blank">
+       <img src="project5.jpg" ></a>
+       <p>2019</p>
+      </div>
+      <div class="gallery-item" >
+       <a href="big6.JPG" target="_blank">
+       <img src="project6.jpg" ></a>
+       <p>2018</p>
       </div>
     </div>
-  </div>
-
-
-<div id="about" class="section">
- <div class="wrapper"> <h2>Трохи про мене</h2>
-  <p>
-   Мене звати Настя. За знаком зодіаку я Водолії. У дитинстві хотіла стати хірургом, вчила хімію біологію. Потім усвідомила що не хочу вчитися в аудиторіях з купою парт. Це нудно.
-    А малювати мені завжди подобалося і так я почала вчитися на кафедрі графічного дизайну. Зараз я працюю вебдізайнеркой. В майбутньому планується розвивати в цій сфері.
- </p>
-  </div>
-</div>
-<div id="love" class="section">
-  <div class="wrapper">
-   <h2>Що я люблю робити</h2>
-    <ol> 
-      <li>Спати</li>
-      <li>Читати</li>
-     <li>В'язати</li>
-     <li>Гуляти з друзями</li>
-    <li>Дивитися серіали</li>
- </div>
-</div>
-
-
-
- 
-<div id="contacts" class="section">
-   <div class="wrapper">
-     <h2>Мої соц мережі</h2>
-     <ul> 
-     <li><a href=https://www.instagram.com/1_aiwa_1/ target="_blank"> Инстаграм</a> </li>
-     <li><a href=https://www.behance.net/anastazii target="_blank"> Behance</a> </li> </ul>
+      
    </div>
- </div>   
+ </div>
 
- <div id="works" class="section">
+ <div id="contacts" class="section">
   <div class="wrapper">
-    <h2>Мої роботи</h2>
-    <ul> 
-    <li><a href=https://akbmaster.ru.com/ target="_blank"> Інтернет магазин</a> </li>
-    <li><a href=https://educationschool.ru/glavnaya target="_blank"> Онлайн-школа</a> </li>
-    <li><a href=https://osmaclinic.ru/ target="_blank"> Клініка</a> </li>
-    </ul>
+    <div class="line"></div>
+    <h1 class="h1">Контакти</h1>
+    <div class="footer">
+      <a class="p-footer" href=https://www.instagram.com/1_aiwa_1/ >Instagram</a> 
+      <a class="p-footer" href=https://www.instagram.com/1_aiwa_1/ >Facebook</a> 
+      <a class="p-footer" href=https://www.behance.net/anastazii >Behance</a> 
+  
+    </div>
   </div>
 </div>
- </body> -->
+
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+      integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="text/javascript">
+      lightGallery(document.getElementById('lightgallery'), {
+        selector: '.gallery-item a',
+      });
+    </script>
+
+ </body>
 </html>
