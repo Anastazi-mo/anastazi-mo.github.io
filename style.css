@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  background-color: #e9e7e0;
 }
 
 html {
@@ -18,7 +19,34 @@ img {
 .section {
   height: 100vh;
   padding-top: 60px;
-  background-color: rgb(231, 231, 253);
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #3d2828;
+  line-height: 83%;
+}
+
+p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #584c4a;
+  line-height: 132%;
 }
 
 /* Меню */
@@ -30,16 +58,9 @@ img {
   padding-bottom: 20px;
 }
 
-.wrapper {
-  padding-left: 15px;
-  padding-right: 15px;
-  max-width: 1170px;
-  margin: 0 auto;
-  position: relative;
-}
 .header {
   overflow: hidden;
-  background-color: rgb(244, 244, 248);
+  background-color: #e9e7e0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -60,19 +81,50 @@ img {
 
 .menu > li > a {
   text-decoration: none;
-  color: black;
+  color: #3d2828;
   font-size: 16px;
 }
 
 .menu > li > a:hover {
-  color: #6f5fdb;
+  color: #9d9d9d;
+}
+
+.line {
+  border-top: 1px solid #3d2828;
+  height: 100%;
+  margin-top: 0px;
 }
 
 /* Блок1 */
 
-.banner {
+#baner {
+  height: 521px;
+}
+.h1 {
+  font-weight: 700;
+  font-size: 187px;
+  margin-top: 120px;
+  text-transform: uppercase;
+  color: #3d2828;
+}
+
+/* Блок2  */
+
+.photome {
+  padding-right: 70px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: center;
+  width: 100%;
+}
+
+/* .banner {
   background-image: url(back.png);
-  /* background-color: rgb(255, 255, 255); */
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -100,10 +152,10 @@ img {
   max-width: 50%;
   font-weight: 500;
   color: black;
-}
+} */
 
 /* про мене */
-
+/* 
 .h2-about {
   font-size: 23px;
   font-weight: 800;
@@ -139,12 +191,13 @@ img {
   position: absolute;
   right: 0;
   max-width: 45%;
-}
+} */
 
 /* portfolio */
 
 #portfolio {
-  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  padding-top: 100px;
 }
 
 /* .section-image.section {
@@ -165,13 +218,13 @@ img {
 }
 
 .gallery-item {
-  width: 30%;
+  width: 26%;
   margin-bottom: 20px;
 }
 
 /* footer */
 
-.p-footer {
+/* .p-footer {
   font-size: 20px;
   max-width: 50%;
   font-weight: 500;
@@ -181,17 +234,7 @@ img {
   margin-top: 30px;
 }
 
-.p-footer:hover {
-  color: #6f5fdb;
-}
 
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
-  margin-bottom: 100px;
 }
 #contacts {
   margin-top: 200px;
@@ -202,4 +245,31 @@ img {
   margin-top: 10px;
   border-top: 3px solid #6f5fdb;
   height: 100%;
+} */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  height: 100vh;
 }
+
+/* .footer a svg path:hover {
+  fill: #dfddd3;
+} */
+
+.footer a svg circle:hover {
+  fill: #3d2828;
+}
+
+/* .rectangle {
+  background-color: #3d2828;
+  height: 664px;
+  width: 5em;
+  position: relative;
+  width: 664px;
+  top: -700px;
+  max-height: 700px;
+} */
