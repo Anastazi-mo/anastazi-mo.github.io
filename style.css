@@ -122,93 +122,10 @@ p {
   width: 100%;
 }
 
-/* .banner {
-  background-image: url(back.png);
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding-top: 200px;
-  padding-bottom: 260px;
-}
-
-.photome {
-  position: absolute;
-  right: 0;
-  top: -100px;
-  max-width: 50%;
-}
-
-.h1 {
-  font-size: 50px;
-  font-weight: 800;
-  margin-bottom: 25px;
-  text-transform: uppercase;
-  color: rgb(156, 156, 248);
-}
-
-.p {
-  font-size: 20px;
-  max-width: 50%;
-  font-weight: 500;
-  color: black;
-} */
-
-/* про мене */
-/* 
-.h2-about {
-  font-size: 23px;
-  font-weight: 800;
-  margin-right: 25px;
-  color: rgb(0, 0, 0);
-  max-width: 50%;
-}
-
-.blok1 {
-  display: flex;
-  align-items: center;
-}
-
-.blok2 {
-  display: flex;
-  margin-top: 50px;
-  margin-left: 40px;
-  align-items: center;
-}
-
-.blok3 {
-  display: flex;
-  margin-top: 50px;
-  margin-left: 80px;
-  align-items: center;
-}
-
-.p-about {
-  max-width: 40ew;
-}
-
-.photo-gerl {
-  position: absolute;
-  right: 0;
-  max-width: 45%;
-} */
-
-/* portfolio */
-
 #portfolio {
   justify-content: space-between;
   padding-top: 100px;
 }
-
-/* .section-image.section {
-  height: 100vh;
-  padding-top: 60px;
-  background-color: rgb(255, 255, 255);
-  margin-top: 100px;
-  flex-flow: row wrap;
-  display: flex;
-  max-width: 1170px;
-} */
 
 .gallerrey {
   display: flex;
@@ -223,29 +140,6 @@ p {
 }
 
 /* footer */
-
-/* .p-footer {
-  font-size: 20px;
-  max-width: 50%;
-  font-weight: 500;
-  text-decoration: none;
-  color: black;
-  text-transform: uppercase;
-  margin-top: 30px;
-}
-
-
-}
-#contacts {
-  margin-top: 200px;
-  background-color: rgb(255, 255, 255);
-}
-
-.line {
-  margin-top: 10px;
-  border-top: 3px solid #6f5fdb;
-  height: 100%;
-} */
 
 .footer {
   display: flex;
@@ -263,13 +157,3 @@ p {
 .footer a svg circle:hover {
   fill: #3d2828;
 }
-
-/* .rectangle {
-  background-color: #3d2828;
-  height: 664px;
-  width: 5em;
-  position: relative;
-  width: 664px;
-  top: -700px;
-  max-height: 700px;
-} */
